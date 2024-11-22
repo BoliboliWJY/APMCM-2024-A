@@ -2,7 +2,7 @@ clear all;
 close all;
 
 % 设置文件夹路径，将这里替换为你实际存放图片的文件夹路径
-folder_path = 'E:\附件一\附件'; 
+folder_path = 'C:\Users\ASUS\Desktop\git\APMCM-2024-A\Attachment\Attachment 1'; 
 
 % 获取文件夹中的所有.jpg和.png格式的图片文件列表
 file_list = dir(fullfile(folder_path, '*.jpg'));
